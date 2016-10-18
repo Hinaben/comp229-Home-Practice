@@ -7,21 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace comp229_Home_Practice
 {
-    public partial class Site : System.Web.UI.MasterPage
+    public partial class Logout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-
         {
-            SetActivePage();
-        }
-
-        private void SetActivePage()
-        {
-           
-            switch (Page.Title)
-            {
-             
-            }
 
         }
     }
